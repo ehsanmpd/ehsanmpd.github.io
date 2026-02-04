@@ -18,7 +18,7 @@ I hold a PhD from the [School of Computer and Communication Sciences](https://ww
 
 News
 ======
-- ** Sep 2025 ** I am promoted to Principal Engineer at [Swisscom AG](https://www.swisscom.ch).
-- ** Dec 2023 ** I received [2023 EPFL Distincted Thesis award](https://www.epfl.ch/education/phd/phd-awards/thesis-distinction/).
-- ** Sep 2023 ** I will be joining [Swisscom AG](https://www.swisscom.ch) as Senior Engineer beginning of January 2023.
-- ** Oct 2022 ** I successfully defended my PhD thesis.
+- **Sep 2025** I am promoted to Principal Engineer at [Swisscom AG](https://www.swisscom.ch).
+- **Dec 2023** I received [2023 EPFL Distincted Thesis award](https://www.epfl.ch/education/phd/phd-awards/thesis-distinction/).
+- **Sep 2023** I will be joining [Swisscom AG](https://www.swisscom.ch) as Senior Engineer beginning of January 2023.
+- **Oct 2022** I successfully defended my PhD thesis.
