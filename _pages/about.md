@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Principal Engineer and Architect at [Swisscom AG](https://www.swisscom.ch/en).
+I am a Principal Engineer and Architect at [Swisscom AG](https://www.swisscom.ch).
 
 News
 ======
