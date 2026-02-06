@@ -27,7 +27,25 @@
     {% endif %}
 
     {% if post.collection == 'publications' and post.citation %}
-      <p class="publication-citation">{{ post.citation }}</p>
+      <p class="publication-citation">{{ post.citation }}
+        {% if post.slidesurl or post.paperurl or post.bibtexurl %}
+          <br />
+          {% assign links = '' %}
+          {% if post.slidesurl %}
+            <a href="{{ post.slidesurl }}">Link</a>
+            {% assign links = '1' %}
+          {% endif %}
+          {% if post.paperurl %}
+            {% if links != '' %} | {% endif %}
+            <a href="{{ post.paperurl }}">Download Paper</a>
+            {% assign links = '1' %}
+          {% endif %}
+          {% if post.bibtexurl %}
+            {% if links != '' %} | {% endif %}
+            <a href="{{ post.bibtexurl }}">Download BibTeX</a>
+          {% endif %}
+        {% endif %}
+      </p>
     {% else %}
       <h2 class="archive__item-title" itemprop="headline">
         {% if post.link %}
@@ -58,33 +76,24 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Link</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Link</a></p>
-    {% elsif post.citation and post.paperurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.citation and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Link</a> | <a href="{{ post.bibtexurl}}">Download Bibtex</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Link</a></p>
-    {% elsif post.citation and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
-    {% elsif post.paperurl and post.bibtexurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
-    {% elsif post.slidesurl and post.bibtexurl %}
-      <p><a href="{{ post.slidesurl }}">Link</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Link</a></p>
-    {% elsif post.bibtexurl %}
-      <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% endif %}
+    {% unless post.collection == 'publications' and post.citation %}
+      {% if post.slidesurl or post.paperurl or post.bibtexurl %}
+        <p>
+          {% assign links = '' %}
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}">Download Paper</a>
+            {% assign links = '1' %}
+          {% endif %}
+          {% if post.slidesurl %}
+            {% if links != '' %} | {% endif %}<a href="{{ post.slidesurl }}">Slides</a>
+            {% assign links = '1' %}
+          {% endif %}
+          {% if post.bibtexurl %}
+            {% if links != '' %} | {% endif %}<a href="{{ post.bibtexurl }}">Download BibTeX</a>
+          {% endif %}
+        </p>
+      {% endif %}
+    {% endunless %}
 
   </article>
 </div>
