@@ -7,7 +7,7 @@ excerpt: ''
 date: 2019-09-03
 venue: '30th International Teletraffic Congress (ITC 30)'
 paperurl: 'https://arxiv.org/pdf/1804.10608'
-bibtexurl: 'https://academicpages.github.io/files/latency-backlog-bound.bib'
+bibtexurl: 'https://ehsanmpd.github.io/files/latency-backlog-bound.bib'
 slidesurl: 'https://ieeexplore.ieee.org/document/8493026'
 citation: 'E. Mohammadpour, E. Stai, M. Mohiuddin and J. -Y. Le Boudec, "Latency and Backlog Bounds in Time-Sensitive Networking with Credit Based Shapers and Asynchronous Traffic Shaping," 2018 30th International Teletraffic Congress (ITC 30), Vienna, Austria, 2018, pp. 1-6, doi: 10.1109/ITC30.2018.10053.'
 ---
