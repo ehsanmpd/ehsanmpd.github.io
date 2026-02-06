@@ -6,15 +6,22 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
-{% include base_path %}
+	
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, [Swiss Federal Institute of Technology (EPFL)](https://www.epfl.ch/education/phd/edic-computer-and-communication-sciences/), 2022
+  * Thesis: A network-calculus analysis of asynchronous mechanisms in time-sensitive networks.
+  * Supervisor: Professor Jean-Yves Le Boudec
+  * [2023 EPFL Distinguished Thesis Award](https://www.epfl.ch/education/phd/phd-awards/thesis-distinction/)
+* M.Sc in Information Technology, [Tehran Polytechnic](https://aut.ac.ir/en/), 2016
+  * Excellence admission award for PhD studies from Tehran Polytechnic.
+	* Ranked 2nd; received top student award with GPA 19.40/20.
+* B.Sc in Computer Engineering, [Tehran Polytechnic](https://aut.ac.ir/en/), 2016
+  * Excellence admission award for master studies from Tehran Polytechnic.
+  * Ranked 2nd; received top student award with GPA 18.05/20.
 
+<!-- 
 Work experience
 ======
 * Spring 2024: Academic Pages Collaborator
@@ -61,4 +68,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
