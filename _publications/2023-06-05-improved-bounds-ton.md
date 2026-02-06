@@ -6,7 +6,7 @@ permalink: /publication/2023-06-05-improved-bounds-ton
 excerpt: ''
 date: 2023-06-05
 venue: 'IEEE/ACM Transactions on Networking'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
+slidesurl: 'https://ieeexplore.ieee.org/abstract/document/10144341'
 paperurl: 'https://arxiv.org/pdf/2204.10906'
 bibtexurl: 'https://ehsanmpd.github.io/files/improved-bounds-ton.bib'
 citation: 'E. Mohammadpour, E. Stai and J. -Y. Le Boudec, "Improved Network-Calculus Nodal Delay-Bounds in Time-Sensitive Networks," in IEEE/ACM Transactions on Networking, vol. 31, no. 6, pp. 2902-2917, Dec. 2023, doi: 10.1109/TNET.2023.3275910.'
