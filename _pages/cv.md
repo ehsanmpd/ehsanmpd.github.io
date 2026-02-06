@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -20,6 +20,8 @@ Education
 * B.Sc in Computer Engineering, [Tehran Polytechnic](https://aut.ac.ir/en/), 2016
   * Excellence admission award for master studies from Tehran Polytechnic.
   * Ranked 2nd; received top student award with GPA 18.05/20.
+
+
 
 
 Work experience
@@ -52,7 +54,7 @@ Work experience
 * 2017-2018: **EPFL**, Intern
   * Proposed a heuristic algorithm for routing of critical flows using linear programming in a time-sensitive network with DRR schedulers. 
 
-* 2014--2016: **EPFL**, Network Optimization Laboratory (Tehran Polytechnic)
+* 2014--2016: **Network Optimization Laboratory (Tehran Polytechnic)**, Researcher
   * Proposed a near-optimal heuristic energy-aware algorithm for routing of flows in green networks.
   * Modeling the energy-aware routing as a constrained MILP (Mixed Integer Linear Programming) optimization problem.
 
