@@ -10,7 +10,7 @@ redirect_from:
 I'm a Principal Engineer and Architect at [Swisscom AG](https://www.swisscom.ch), where I help teams build and modernize cloud-native systems. I spend a lot of my time working with engineers across the company—facilitating technical decisions, aligning on architecture, and helping people navigate the challenges of moving to Kubernetes and microservices. I also build things: Go operators, integration platforms, whatever's needed to solve the problem at hand.
 
 I hold a PhD from the [School of Computer and Communication Sciences](https://www.epfl.ch/education/phd/edic-computer-and-communication-sciences/) at [EPFL](École polytechnique fédérale de Lausanne), where I worked on formal methods for time-sensitive networks. My research focused on using Network Calculus to provide mathematical guarantees for latency, jitter, and packet loss in deterministic networking-systems. 
-My PhD resulted in publications primarily in IEEE/ACM Transactions on Networking, and led to patents through collaborations with industry partners who applied these theoretical foundations to real-world networking solutions.
+My PhD resulted in publications primarily in IEEE/ACM Transactions on Networking, and led to patents, through collaborations with industry partners, which applies theoretical foundations to real-world networking solutions.
 
 
 
